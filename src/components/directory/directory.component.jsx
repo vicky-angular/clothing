@@ -32,7 +32,10 @@ return (
     <>
      <div className="categories-container">
       {category.map((data) => {
-      return <CategoryItem key={data.id} category={data}></CategoryItem>
+						return <CategoryItem key={data.id}
+						category={data}
+					>
+					</CategoryItem>
       })}
       </div>
     </>
