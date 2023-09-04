@@ -4,7 +4,7 @@ import {ReactComponent as CrownLogo} from '../../assets/crown.svg';
 const Navigate = () => {
 return (
     <>
-    <div class="navigation">
+    <div className="navigation">
     <Link className="logo-container" to="/">
     <CrownLogo className="logo"></CrownLogo>
     </Link>
